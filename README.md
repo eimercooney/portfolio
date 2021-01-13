@@ -1,3 +1,3 @@
 # portfolio
 
-- [portfolio](http://eimercooney.github.io/portfolio/home.html)
+- [home](http://eimercooney.github.io/portfolio/home.html)
