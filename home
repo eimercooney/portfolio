@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+    <head><!-- Global site tag (gtag.js) - Google Analytics -->
+          <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151437142-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-151437142-1');
+</script>
+      
+    </head>
+<title>Eimear Cooney</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+<style>
+body,h1,h2,h3,h4,h6 {font-family: "Work Sans", sans-serif}
+    h5 {color: white}
+body, html {
+  height: 100%;
+  line-height: 1.8;
+    background-color: black;
+}
+
+
+.bgimg-1 {
+  background-position: center;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+  min-height: 100%;
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 2s; 
+  animation-name: gradient;
+  animation-duration: 25s;
+    animation-iteration-count: 100;
+}
+    
+    .footer{
+      background-position: center;
+  background-size: 400% 400%;
+        background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+    
+
+@-webkit-keyframes gradient {
+0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Standard syntax */
+@keyframes example {
+0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+    
+.center {
+  align-content: center;
+  text-align: center;
+    }
+    
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+    
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+    
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+</style>
+    
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">
+      </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+        
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+     
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+    
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+    
+    
+    
+    <!--header-->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home"></header>
+    
+    <div class="w3-display-middle w3-text-white" style="padding:64px"> <br><br><br>
+    <span class="w3-jumbo w3-hide-small">EIMEAR COONEY</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"><p>EIMEAR COONEY</p></span>
+        <span class="w3-large w3-center"><p>Digital Designer<br>IXDBelfast Graduate</p></span>
+    
+    <div class="w3-xxlarge w3-center w3-section">
+     <a href="https://www.instagram.com/eimeardesigns/"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+      
+      <a href="https://twitter.com/eimear_cooney"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+      
+       <a href="https://dribbble.com/eimercooney"><i class="fab fa-dribbble w3-hover-opacity"></i></a>
+      
+       <a href="https://eimearcooney.tumblr.com/"><i class="fab fa-tumblr w3-hover-opacity"></i></a>
+      
+      
+      <a href="https://uk.linkedin.com/in/eimear-cooney-530a11174?trk=people-guest_profile-result-card_result-card_full-click"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
+      </div>
+        <br>
+       
+        <div class="arrow bounce" "w3-display-bottommiddle">
+     <a class="fas fa-angle-down fa-2x"></a>
+</div>
+        
+      </div>
+
+
+
+
+
+<!-- Work Section -->
+
+<div class="w3-container w3-white" style="padding:136px 16px" id="work">
+  <h1 class="w3-center">MY WORK</h1>
+  <p class="w3-center w3-large">A handful of projects I have done over the years</p> <br> <br> 
+
+ <div class="w3-row-padding">
+     <div class="w3-third" "container">
+      <a href="project5.html"><img src="images/bemindmockupp.png" style="width:105%" alt="bemind"></a>
+      <br><br><h3>Bemind</h3>
+          <p>Bemind is a app based project that was built and designed for people struggling with their mental health</p>
+    </div>
+     
+    <div class="w3-third">
+     <a href="project2.html"><img src="images/elementsMockup.gif"style="width:98%"></a> 
+      <h3>Elements</h3>
+      <p>Elements that Glow is a science for kids. It shows them what elements glow in the dark</p>
+    </div>
+     
+       <div class="w3-third">
+       <a href="project1.html">
+      <img src="images/Artboard%2025.png" style="width:100%"></a>
+      <h3>Connect Food</h3>
+      <p>This is a app based product that allows people to share a meal</p>
+    </div>
+     
+   
+    </div>
+     
+ 
+    <br><br>
+    <div class="w3-row-padding">
+   
+   <div class="w3-third">
+       <a href=project4.html>
+           <img src="images/landmarksmock.gif" style="width:100%"></a>
+      <h3>Landmarks</h3>
+      <p>A master apprentice of world landmarks</p>
+    </div>
+  
+   <div class="w3-third">
+      <a href="project3.html"><img src="images/sherlockmockup.gif" style="width:98%"></a>
+      <h3>Heroes and Villians</h3>
+      <p>Heroes and Villians is a Sherlock Holmes website.</p>
+    </div>
+        
+        <div class="w3-third">
+            <a href="project6.html">
+        <img src="images/2017_Macbook_Mockup.gif" style="width: 100%"></a>
+        <h3>In-Lab</h3>
+        <p>An online learn UX platform</p>
+        </div>
+       
+    </div>
+    
+    <br>
+    
+ <div class="w3-row-padding">
+     <div class="w3-third" "container">
+      <img src="images/Stationery-Mockup.gif" style="width:100%" alt="Brand">
+      <h3>Personal Branding</h3>
+      <p>Learning on Brand Identification</p>
+    </div>
+     
+      <div class="w3-third" "container">
+      <img src="images/cocktailsMockup.gif" style="width:100%" alt="Icons">
+      <h3>Iconography</h3>
+      <p>Studying Iconography and made icons on different cocktails</p>
+    </div>
+    </div>
+    </div>
+    
+  
+
+<!-- Client Section -->
+
+<div class="w3-container w3-white" style="padding:64px 16px" id="work">
+  <h1 class="w3-center">CLIENT WORK</h1>
+  <br><br>
+
+ <div class="w3-row-padding">
+     <div class="w3-third" "container">
+      <img src="images/CandleMockup.png" style="width:100%">
+    <h3>Candle Design</h3>
+          <p>Client was starting up a candle business and wanted stickers for the jars.</p>
+    </div>
+     
+    <div class="w3-third">
+   <img src="images/nblogomockup.png"style="width:100%">
+      <h3>Beauty Salon Logo</h3>
+      <p>Local Business wanted a logo for a new start up.</p>
+    </div>
+     
+       <div class="w3-third">
+      
+      <img src="images/tc5mockup.png" style="width:103%">
+      <h3>Coffee House Webste</h3>
+      <p>Created a website for my local cafe. Live website coming soon.</p>
+    </div>
+    </div>
+    
+    
+    
+     <div class="w3-row-padding">
+     <div class="w3-third" "container">
+      <img src="images/progress.png" style="width:100%" alt="logo">
+      <h3>Client logo</h3>
+      <p>Coming Soon</p>
+    </div>
+     
+      <div class="w3-third" "container">
+      <img src="images/progress.png" style="width:100%" alt="website">
+      <h3>Client Website</h3>
+      <p>Coming Soon</p>
+    </div>
+    </div>
+    
+     <br><br><br>
+    
+    <!-- About Section -->
+<div class="w3-container w3-white" style="padding:64px 16px" id="about">
+  <h2 class="w3-center">ABOUT ME</h2>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center" style="color: skyblue"></i>
+      <p class="w3-large">My Portfolio</p>
+      <p>Welcome to my website. My name is Eimear Cooney, I am a UX Designer. I am a student at Ulster University where I study Interaction Design. From this course my skill set in design has increased and I more confindent in my work. </p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo" style="color: palevioletred"></i>
+      <p class="w3-large">Passion</p>
+      <p>I am a hard working and enthusiastic person. I have worked on some projects in the past; you can find them on this website under 'work' where I have displayed my current, finished and favourite projects
+</p>
+    </div>
+    <div class="w3-third">
+      <i class="fas fa-marker w3-margin-bottom w3-jumbo"style="color: plum"></i>
+      <p class="w3-large">Design</p>
+      <p>I love using my computer to design but I also love going back to old school pencil and paper and just designing and drawing what comes to my head. From there I am able to bring my drawing into illustator and touching them up to make them the best that they can be. Then use XD to prototype.</p>
+    </div>
+    
+  </div>
+</div>
+
+
+
+    
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+  
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-center w3-white" style="padding:128px 16px" id="contact">
+  <h1 class="w3-center">CONTACT</h1>
+  <p class="w3-center w3-large">Lets get in touch. Send me a message:</p>
+  <div style="margin-top:48px">
+   
+    <h2><i class="fa fa-envelope fa-fw w3-xxlarge w3-center"> </i> 
+<a href="mailto:eimearcooney@gmail.com">hi@eimearcooney.com</a></h2>
+
+    </div>
+    </div>
+   <!-- CV -->
+      <div class="w3-container w3-white w3-center"  id="CV">
+   <h2> <a href="https://www.dropbox.com/s/i00h02e5vma99r0/cvnew2020.png?dl=0" class="w3-button w3-white w3-center">Download my CV</a></h2>
+      </div>
+    </div>
+    
+
+<!-- Footer -->
+<footer class="footer w3-center w3-black w3-padding-64">
+  <h5><a href="#home" class="w3-button w3-white">
+      <i class="fab fa-arrow-up w3-margin-right"></i>To the top</a></h5>
+    
+  <div class="w3-xxxlarge w3-section">
+     <a href="https://www.instagram.com/eimeardesigns/"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+      
+      <a href="https://twitter.com/eimear_cooney"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+      
+       <a href="https://dribbble.com/eimercooney"><i class="fab fa-dribbble w3-hover-opacity"></i></a>
+      
+       <a href="https://eimearcooney.tumblr.com/"><i class="fab fa-tumblr w3-hover-opacity"></i></a>
+      
+      
+      <a href="https://uk.linkedin.com/in/eimear-cooney-530a11174?trk=people-guest_profile-result-card_result-card_full-click"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
+      
+      
+  </div>
+
+  <p>Created by Eimear Cooney 2020</p>
+</footer>
+ 
+<script> 
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;}
+
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+    
+</body>
+</html>
+
