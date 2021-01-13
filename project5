@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Connect Food</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}    
+    
+body, html {
+  height: 100%;
+  line-height: 1.8;
+    background-color: white;
+}
+    
+    h1 {
+        color: rebeccapurple;
+    }
+    .bgheader {
+  background-size: cover;
+  background-image: url("images/cfheader.png");
+  min-height: 100%;
+    
+        
+        
+}
+        
+.button {
+  background-color: mediumpurple;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+     
+    .left {
+     padding-left: 100px;
+        padding-right: 120px;
+    }
+    .lefter {
+        padding-left: 130px;
+    }
+    
+        
+    #rcorners2 {
+  border-radius: 35px;
+  border: 3px solid #8334D5;
+  padding: 20px; 
+  width: 150px;
+  height: 70px; 
+        display: inline;
+}
+    
+ .lineHorizontal__container {
+  align-items: center;
+  display: flex;
+  height: 0px;
+}
+    
+.lineHorizontal {
+  border-top: 2px solid rgb(50,205,50);
+  width: 100%;
+}
+    
+
+
+</style>
+    
+    
+<body>
+    
+    
+    
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-deep-purple w3-card w3-left-align w3-small">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+       <a href="home.html#work" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa fa-home"></a>
+    <a href="#concept" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Concept</a>
+    <a href="#research" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Research</a>
+    <a href="#branding" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Branding</a>
+    <a href="#papergeneration" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Paper Generation</a>
+        <a href="#digitaldesign" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Digital Design</a>
+       <a href="#outcome" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Mock-ups</a>
+    
+    </div>
+
+  <!-- Navbar -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+     
+    <a href="#concept" class="w3-bar-item w3-button w3-padding-large">Concept</a>
+    <a href="research" class="w3-bar-item w3-button w3-padding-large">Research</a>
+    <a href="branding" class="w3-bar-item w3-button w3-padding-large">Branding</a>
+      <a href="papergeneration" class="w3-bar-item w3-button w3-padding-large">Paper Generation</a>
+      <a href="digitaldesign" class="w3-bar-item w3-button w3-padding-large">Digital Design</a>
+        <a href="outcome" class="w3-bar-item w3-button w3-padding-large">Mock-up</a>
+              <a href="home.html" class="w3-bar-item w3-button w3-padding-large fa fa-home"></a>
+  </div>
+</div>
+
+    
+    
+    
+<!-- Header -->
+<header class="bgheader w3-container w3-deep-purple w3-center" style="padding:118px 26px">
+  <h1 class="w3-margin w3-jumbo"></h1>
+    <br>
+ 
+</header>
+
+    
+    
+    
+<!-- Concept -->
+<div class="w3-container w3-white w3-padding-64 w3-container" id="concept">
+    <div class="left">
+      <h1>Concept</h1>
+      <h5>This was an RSA brief apart of my final year at university. This was a of two week sprint project, the task "how might we reimagine common space to build diverse communities through food?"
+      </h5> <br>
+        <p id="rcorners2">UX Design</p> 
+        <p id="rcorners2">App Design</p> 
+        <p id="rcorners2">Prototyping</p>
+        <br><br><br>
+        <h3><u>What is Connect Food?</u></h3>
+        <h5>This an app that allows both people in need and voluteers to use and connect. Both parties can register and use the app. The person in need can enter their dietary requirements via app. The voluteers can sign up and be matched with a person to cook for. Voluteers cook a meal to fit the dietary requirements of the matched person. The meal with brought to a local location where an event for the meal sharing would be set up. The location would be a shared location where everyone meets every week or so. The two can then sit down to a home cooked meal and socailise.</h5>
+        <br>
+        <h3><u>The Problem</u></h3>
+        <h5>Homelessness is everywhere. The people that are homeless can not afford to live in a home or sometimes can’t afford food. Research shows that coeliac disease affects one in 100 people in the UK. Oxfam and Church Action on Poverty estimates that over 500,000 people in the UK are now reliant on food parcels. An estimate of around 5,000 people are coeliac and deprived. Coeliac food is expensive and often isn't available in food donation centers and soup kitchens. Among other dietary requirements are: Latose Intolerant/Coeliac/ Meat-free etc.</h5>
+        <br>
+        <h3><u>The Solution</u></h3>
+        <h5>Solution. Make an extra plate of food. For people who have the means to cook and buy their own food, can donate an extra plate. Both parties, either deprived or volunteer can sign up to an app and be matched with a local person and meet in a safe space to sit down and eat a meal. The volunteer would be informed of the person's dietary requirements and cook a meal suited. They meet and a specific location and date/time and sit and eat, talking and connecting with each other. This will help people socialise and eat.</h5>
+    </div>
+  </div>
+
+    
+    <img src="images/purpleline.png" width="100%" height="10%">
+    
+      
+    <!--RESEARCH-->
+    
+    <div class="w3-container w3-padding-64" id="research">
+  <div class="left">
+      <h1>Research</h1>
+      <br>
+      <h3><u>Ideas</u></h3>
+     <h5>RSA - Ideas
+<p>Making an extra plate of food for someone in need
+Event where the elderly can go out and socialise and eat dinner every week 
+One person books a shared table in a restaurant
+I am in favour of ‘making a extra plate’</p>
+
+<p>This is a quick and unrefined idea but I would like to design something that would help the disadvantaged eat. Many of us who are forutune to cook our own meals often make too much food and instead of throwing it in the bin which is “£13 billion of food was wasted in the UK in 2015, approximately 7.3 million tonnes.”</p>
+
+<p>This is a extremely large amount of money and food that is wasted. “16% of adults either skipping or seeing someone in their household skipping meals, 14% worrying about not having enough food to eat, and 8% going a whole day without eating because of lack of money in the last 12 months.” This is called hidden hunger.</p>
+
+<p>If people would make an extra plate of food when having there breakfast, lunch or dinner and donate it to someone in need and sit down in a share space to sit, eat and talk to someone you don’t know. Help people in the  community that are in need, help combat loneliness and help get social communication.</p>
+</h5> </div>
+      <br><br>
+        <div class="left">
+        <h3><u>The Main Idea</u></h3>
+            <h5>An app that allows both people in need and volunteers to use and connect.Both parties can register and use the app. The person in need can enter their dietary requirements via the app. The volunteers can sign up and be matched with a person to cook for. Volunteers cook a meal to fit the dietary requirements of the matched person. The meal with brought to a local location where an event for the meal sharing would be set up. The location would be a shared location where everyone meets every week or so. The two can then sit down to a home-cooked meal and socialise.</h5>
+        </div>
+ <br><br>
+      <div class="left">
+        <h3><u>Stats</u></h3>
+            <img src="images/Artboard%2017.png">
+        </div>
+        <br><br>
+        
+         <div class="left">
+        <h3><u>Uber App</u></h3>
+             <h5>User Design Analysis</h5> 
+<h5><p>Using the Uber app is simple and is made very simple for a reason. Uber is known for its UI design and how minimal yet very effective it is. Its main function is to get a trip. Enter into the search bar where you want to do and then choose your Uber driver. You have a user profile that shows previous trips and invoiced.
+The app also gives the users the option to use their sister app ‘Uber Eats’ where you get food delivered to you.</p>
+<p>The app relies on the hamburger menu than the tab bar for navigation to complete its clean, minimal look.
+The black and white colours are the main colour scheme. They use google maps to give the user a visual idea of where they are and where they want to go, also when you are waiting on your Uber the user is able to track and follow the car. The car follows a black line to the destination. 
+Uber’s original idea was “Push a button, get a ride.” You didn’t need to set your destination, you didn’t need to select a product, you just hit a button, or two, and you were off. Sometimes the more features you add the more complex a product can become. </p>
+<p>The graphics User Interface definitely looks neater and stylish than the previous version of the App. There is far more white space, graphical elements have overlay effects and the colour is quite carefully used. The animated maps, routes, icons, and panels certainly provide a playful appeal. Which can be cute and enjoyable but can also be a tad childish but I feel Uber has done well at not having childish animations rather informative and fun. </p>
+<p>The app has one of the most stylish interfaces and they pride themselves on their user interface design. Looking at how they use the hamburger menu as navigation, their animations, colour ad even their typography and kerning I feel I have learned what to look for and what to aim for when designing.</p> </h5>
+            <div class="w3-center">
+             <img src="images/uberscreen.png" style width="60%" height="60%"> 
+    </div></div>
+        
+        <br><br>
+        
+              <div class="left">
+        <h3><u>Casserole Club</u></h3>
+            <h5><a href="https://www.casseroleclub.com"  style="color: purple">"Casserole Club volunteers share extra portions of home-cooked food with people in their area who aren’t always able to cook for themselves. They share once a week, once a month, or whenever works best for them."</a>
+                <p>This project is to get people who are disadvantaged and cannot feed themselves to get home cooked, proper meals that are nutritious and hearty. Casserole Club is a proven, low-cost way to reduce social isolation and improve food provision among older people. They put older or vulnerable people in touch with a neighbour who can drop off a free, wholesome meal and have a friendly chat which we hope will become a regular arrangement. All of our volunteers go though an independent DBS criminal records check and do are checked on their food hygiene knowledge.</p>
+
+<p>Casserole Club was set up in July 2011 and helps people share extra portions of home-cooked food with others in their area who might not be able to cook for themselves. Members of the club serve up meals to their neighbours while strengthening local neighbourhood relationships.</p>
+
+
+<p>“On average it costs a council £4.90 to provide a meal. If 100 diners get on average two meals a week from a neighbour, Casserole Club will have saved councils at least £50,960 a year.”</p>
+
+<p>Having the government as a stakeholder is amazing for this project. The savings and helping is creating a better community and helping people get included socially.</p></h5>
+        </div>
+        <br><br>
+             
+        
+              <div class="left">
+                  <h3><u>Stamen Maps</u></h3>
+                  <h5>Using Stamen Maps as they are visually better looking than the basic Google or Apple Maps.</h5>
+                    <div class="w3-third"><h5>Terrain</h5></div>
+        <div class="w3-third"><h5>Watercolour</h5></div>
+        <div class="w3-third"><h5>Toner</h5></div>
+        </div> 
+        <div class="w3-container" style="padding: 64px">
+        <div class="w3-third"><img src="images/map1.png" style width="100%"></div>
+         <div class="w3-third"><img src="images/map2.png"style width="100%"></div>
+          <div class="w3-third"><img src="images/map3.png"style width="100%"></div>
+     </div> 
+       
+    </div>
+  
+
+    <img src="images/purpleline.png" width="100%" height="10%">
+        
+    <!--USER-->
+     <div class="left"><h1>User Focus</h1>
+    <h5>The users and target market</h5></div> 
+    <div class="w3-container w3-white w3-center w3-padding-64">
+  <div class="w3-center">
+    
+     
+      <img src="images/users.png" width="80%">
+    </div>
+      
+    </div>
+  
+    <img src="images/purpleline.png" width="100%" height="10%">
+    
+    <!--Branding-->
+    
+    <div class="w3-container w3-padding-64" id="branding">
+  <div class="left">
+      <h1>Branding</h1>
+   
+      <h5 class="w3-padding-32">
+          This is a digital copy of my designs, drawing and work process. With this project I did struggle with the logo. I went though different designs, different names and different colours. From drawing to digital and then scraping the design this was a tough process for me. I started to feel that no design would be suited. As a designer we all go though this process of not feeling our designs are good enough. I didn't stop until I liked a design. 
+      </h5>
+    </div>
+        
+       <div class="w3-third">
+        <img src="images/brand1.png" width="100%"></div> 
+        
+        <div class="w3-third">
+        <img src="images/brand5.png"></div> 
+        
+        <div class="w3-third">
+        <img src="images/brand6.png" width="90%"></div> 
+        
+        <div class="w3-third">
+        <img src="images/brand2.png"></div> 
+        <div class="w3-third">
+        <img src="images/brand3.png"></div>
+        <div class="w3-third">
+        <img src="images/brand4.png"></div> 
+    </div>
+    
+        <div class="w3-center">
+          
+            <h5>This was the final design. After going back and forth from paper to digital I finally got there.</h5>
+            
+            <img src="images/connectfood%202.png" width="30%">
+        </div>
+        
+ 
+
+    
+  <img src="images/purpleline.png" width="100%" height="10%">
+    
+    
+    
+    
+    
+      <!--Branding-->
+    
+    <div class="w3-container  w3-padding-64" id="papergeneration">
+  <div class="left">
+      <h1>Paper Generation</h1>
+   
+      <h5 class="w3-padding-32">
+          This is a digital copy of my designs, drawing, work process and mockups
+      </h5>
+        </div>
+      <div class="w3-half">
+        <img src="images/lowficonnect.jpeg" width="100%"></div> 
+        <div class="w3-half">
+        <img src="images/lowficonnect1.jpeg" width="100%"></div>
+    </div>
+
+     <img src="images/purpleline.png" width="100%" height="10%">
+    
+    
+    
+    
+    
+    
+    <!--Designs-->
+     <div class="w3-container w3-white w3-padding-64" id="digitaldesign">
+  <div class="left">
+      <h1>Digital Design</h1></div>
+         
+         <div class="w3-center">
+      <img src="images/Artboard%2023.png">
+        <h3><a href="https://xd.adobe.com/view/84c61a5a-ac20-4ad8-4be0-4dd8d5ebf3d9-f2f7/">This is the Prototype</a></h3>
+    </div>
+  </div>
+    
+    
+    <img src="images/purpleline.png" width="100%" height="10%">
+    
+    
+    
+          <!--Outcome-->
+    <div class="left">
+    <h1>Mock-ups</h1>
+    </div>
+     <div class="w3-container w3-center w3-white w3-padding-64" id="outcome">
+  <div class="w3-center w3-image ">
+      
+        <img src="images/Artboard%2025.png" width="100%">
+         </div>
+         
+         <div class="w3-half">
+         <img src="images/billboard.png" width="100.3%">
+         </div>
+          <div class="w3-half">
+         <img src="images/busstop.png" width="100%">
+         </div> 
+        
+         
+      <div class="w3-container">
+          
+          <button class="button"><a href="https://www.behance.net/gallery/91445833/Connect-Food">Brand Guidelines</a></button>
+              <button class="button"><a href="https://eimearcooney.tumblr.com/tagged/RSA">Process</a></button>
+              
+           <button class="button"><a href=" https://xd.adobe.com/view/83de335c-8b71-419e-578a-8947faf5d700-f5ef/">Wireframes</a></button>
+              
+        
+          
+          <button class="button"><a href="https://xd.adobe.com/view/24387ce2-bef6-41eb-4353-0e0b2fe8aa98-5209/">Prototype</a></button>
+                   
+       </div>
+  </div>
+    
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+   <div class="w3-xxxlarge w3-section">
+     <a href="https://www.instagram.com/eimeardesigns/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      
+      <a href="https://twitter.com/eimear_cooney"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      
+       <a href="https://dribbble.com/eimercooney"><i class="fa fa-dribbble w3-hover-opacity"></i></a>
+      
+       <a href="https://eimearcooney.tumblr.com/"><i class="fa fa-tumblr w3-hover-opacity"></i></a>
+      
+      
+      <a href="https://uk.linkedin.com/in/eimear-cooney-530a11174?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+      </div>
+    
+<p>Created by Eimear Cooney 2020</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
+
