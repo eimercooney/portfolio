@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Elements that Glow</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    h1 {color: greenyellow}
+
+    
+    body, html {
+  height: 100%;
+  line-height: 1.8;
+    background-color: black;
+}
+    
+   
+    .bgheader {
+  background-size: cover;
+  background-image: url("images/elementsglow.png");
+  min-height: 100%;
+    
+        
+        
+}
+        
+.button {
+  background-color: greenyellow;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+     
+    .left {
+     padding-left: 100px;
+        padding-right: 120px;
+    }
+    .lefter {
+        padding-left: 130px;
+    }
+    
+        
+    #rcorners2 {
+  border-radius: 35px;
+  border: 3px solid #B6F01E;
+  padding: 20px; 
+  width: 150px;
+  height: 70px; 
+        display: inline;
+}
+    
+ .lineHorizontal__container {
+  align-items: center;
+  display: flex;
+  height: 0px;
+}
+    
+.lineHorizontal {
+  border-top: 2px solid rgb(50,205,50);
+  width: 100%;
+}
+    
+    
+    
+</style>
+    
+    
+<body>
+    
+    
+    
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-small">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+       <a href="home.html#work" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa fa-home"></a>
+      
+    <a href="#concept" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Concept</a>
+      
+    <a href="#research" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Research</a>
+      
+    <a href="#branding" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Branding</a>
+      
+    <a href="#papergeneration" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Paper Generation</a>
+      
+    <a href="#digitaldesign" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Digital Design</a>
+      
+    <a href="#outcome" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Outcome</a>
+  </div>
+    
+    
+    
+
+  <!-- Navbar -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+ 
+     <a href="concept" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Concept</a>
+    <a href="research" class="w3-bar-item w3-button w3-padding-large w3-white">Research</a>   
+    <a href="branding" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Branding</a>
+    <a href="papergeneration" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Paper Generation</a>
+    <a href="digitaldesign" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Digital Design</a>
+    <a href="outcome" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Outcome</a>
+  </div>
+</div>
+
+    
+    
+    
+<!-- Header -->
+
+<header class="w3-container bgheader w3-center">
+</header>
+
+    
+    
+    
+<!-- Concept -->
+<div class="w3-container w3-black w3-padding-64 w3-container" id=concept>
+  <div class="left">
+      <h1>Concept</h1><br>
+      <h5>
+      
+      </h5>
+         <p id="rcorners2">UX Design</p> 
+        <p id="rcorners2">App Design</p> 
+        <p id="rcorners2">Prototyping</p>
+      <br><br>
+      <h5>
+      To design and create a website to explain elements from the periodic table. The Periodic Table as we know, is a table of the chemical elements arranged in order of atomic number, so that elements with similar atomic structure appear in vertical columns. Making a fun twist on the Periodic Table to teach childern in Primary school elements in the Periodic Table can glow. Glowing elements will glow for the childern to learn why and how they glow. 
+      </h5>
+    </div>
+  </div>
+
+    <img src="images/greenline.png" width="80%" height="3%">
+    
+   
+        <!--RESEARCH-->
+    
+    <div class="w3-container w3-black w3-padding-64" id=research>
+  <div class="left"><br>
+      <h1>Research</h1>
+      <h3>Ulster Museum - Element Research</h3>
+      <h5>There is there is an exhibition in the ulster museum of the history of elements in the periodic table. Each of the elements had their own groups such as the techonology, jewels, medicine, food etc. One part of the exhibition had transition metals and there would be a piece of that element displayed so you can see visually what it looks like. Alongside the element there were also things that had been made from specific elements to show how they can actually be used in the real world.
+      </h5>
+    </div>
+<br><br>
+  <div class="left">
+      <h3>Periodic Table</h3>
+    </div>
+        <div class="w3-center" >
+        <img src="images/periodic-table.png"></div>
+        <br><br>
+  <div class="left">
+      <h3>The Science Stuff</h3>
+      <h5>These are elements that glow and an amazing glow is due to a scientific process called luminescence. Even some animals have these properties and glow in the dark. Chemiluminescence makes things glow by creating a chemical reaction. The electrons within the object become excited because of the reaction between two chemicals, and the electrons give off energy by glowing. Luminescence is what causes items to glow brightly when it's dark.  </h5>
+    </div>  
+        <div class="w3-center">
+        <img src="images/Artboard%2010.png">
+  </div>
+        
+        </div>
+
+       <img src="images/greenline.png" width="80%" height="3%">
+    
+    
+    
+<!--USER-->
+    <div class="w3-container w3-black w3-padding-64" id=user>
+     <div class="left">
+         <h1>User Focus</h1>
+    <h3>User Persona and Empathy Maps</h3>
+        </div>
+    <br><br><br><br>
+        
+    <div class="left"> 
+        <h1>Mindmap</h1> 
+    </div>
+  <div class="w3-center">
+  <img src="images/mindmapelements.png" width="80%">
+     </div>
+        
+        
+        <div class="left">
+         <h1>User Flow</h1>
+    <h3>Sticky Notes</h3>
+        </div> 
+    </div>
+
+    
+       <img src="images/greenline.png" width="80%" height="5%">
+    
+    
+    <!--Branding-->
+    
+    <div class="w3-container w3-black w3-padding-64" id="branding">
+  <div class="left">
+      <h1>Branding</h1>
+      <h3>Colour</h3>
+      
+
+        
+
+      <h3>Logo</h3>
+      
+
+      <h3>Icons</h3>
+    
+    
+      <h3>Fonts</h3>
+    </div>
+    </div>
+    
+    
+        <img src="images/greenline.png" width="80%" height="5%">
+    
+    <!--Paper Generation-->
+    
+    <div class="w3-container w3-black w3-padding-64" id="papergeneration">
+  <div class="left">
+      <h1>Paper Generation</h1>
+   
+      <h5 class="w3-padding-32">
+     
+      </h5>
+    </div>
+    </div>
+    
+    
+    
+    
+       <img src="images/greenline.png" width="80%" height="5%">
+    
+    <!--DigitalDesigns-->
+     <div class="w3-container w3-black w3-padding-64" id="digitaldesign">
+       <div class="left">
+           <h1>Digital Designs</h1></div>
+  <div class="w3-center ">
+   
+      
+        <h1><a href="https://eimercooney.github.io/Elements_glow/elementhome.html">This is the Prototype</a></h1>
+    </div>
+  </div>
+    
+       <img src="images/greenline.png" width="80%" height="5%">
+    
+    
+    <!---Outcome---->
+    <div class="w3-container w3-black w3-padding-64" id="outcome">
+    <div class="left">
+    <h1>Outcome</h1>
+    </div>
+        <div class="w3-center">
+            <img src="images/elementsMockup.png" width="80%"></div>
+    
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black">  
+    <div class="w3-xxxlarge w3-section">
+     <a href="https://www.instagram.com/eimeardesigns/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      
+      <a href="https://twitter.com/eimear_cooney"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      
+       <a href="https://dribbble.com/eimercooney"><i class="fa fa-dribbble w3-hover-opacity"></i></a>
+      
+       <a href="https://eimearcooney.tumblr.com/"><i class="fa fa-tumblr w3-hover-opacity"></i></a>
+      
+      
+      <a href="https://uk.linkedin.com/in/eimear-cooney-530a11174?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+    <p>Created by Eimear Cooney 2019</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
