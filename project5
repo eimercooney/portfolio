@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<title>BEMIND</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Work Sans", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+    background-color: white;
+}
+    .bgheader {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/bemindheader.png");
+  min-height: 100%;
+        
+}
+        
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+
+    
+    .left {
+     padding-left: 100px;
+        padding-right: 120px;
+    }
+    .lefter {
+        padding-left: 130px;
+    }
+    
+    
+    #rcorners2 {
+  border-radius: 35px;
+  border: 3px solid #73AD21;
+  padding: 20px; 
+  width: 150px;
+  height: 70px; 
+        display: inline;
+}
+    
+ .lineHorizontal__container {
+  align-items: center;
+  display: flex;
+  height: 0px;
+}
+    
+.lineHorizontal {
+  border-top: 2px solid rgb(50,205,50);
+  width: 100%;
+}
+    
+    
+ background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+    
+  
+
+    
+    </style>
+    
+<body>
+    
+    
+    
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-green w3-card w3-left-align w3-small">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+       <a href="home.html#work" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa fa-home"></a>
+    <a href="#concept" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Concept</a>
+    <a href="#research" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Research</a>
+    <a href="#branding" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Branding</a>
+    <a href="#papergeneration" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Paper Generation</a>
+        <a href="#digitaldesign" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Digital Design</a>
+       <a href="#outcome" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Outcome</a>
+      
+   
+  </div>
+    
+    
+    
+
+  <!-- Navbar -->
+ <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+ 
+     <a href="concept" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Concept</a>
+    <a href="research" class="w3-bar-item w3-button w3-padding-large w3-white">Research</a>   
+    <a href="branding" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Branding</a>
+    <a href="papergeneration" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Paper Generation</a>
+    <a href="digitaldesign" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Digital Design</a>
+    <a href="outcome" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Outcome</a>
+  </div>
+</div>
+
+
+    <br>
+    
+    
+<!-- Header -->
+   
+<header class="bgheader w3-container w3-green w3-center" style="padding:128px 64px">
+  <h1 class="w3-margin w3-jumbo"></h1>
+    <br>
+ 
+</header>
+
+    
+    
+   
+        <!--BIO-->
+    
+    <div class="w3-container w3-white w3-padding-64" id="concept">
+  <div class="left">
+      <h2><u>Concept</u></h2>
+     <h4>Bemind is a app based project that was built and designed for people struggling with their mental health</h4>
+    <br>
+<p id="rcorners2">UX Design</p> <p id="rcorners2">Branding</p> <p id="rcorners2">Prototyping</p>
+  <br><br><br>
+        <h3><u>What is Bemind?</u></h3>
+        <h5>Bemind is an app that will help people deal with their emotions properly. Allowing the user to begin to bring attention to their emotions by allowing a platform to track and get control back into their lives. It is to help motivate people to seek wellness through tracking, fun activities and useful information. The app is therefore designed around the user and for the user. You can check out the website for bemind at
+      <a href="www.bemindapp.co.uk" style="color: green">Bemind Promotional Website</a></h5>
+      <br>
+        <h3><u>The Problem</u></h3>
+<h5>Mental illness is at its highest in years. Our lives have become more complicated. Stress, depression, and anxiety are what most of us will suffer from. We have the technology to help but how to design it to help. People are often scared to talk about mental health due to the taboo that surrounds it. But if we bring more attention to it and create more outlets hopefully we can help people who are suffering.</h5>
+      <br>
+        <h3><u>The Solution</u></h3>
+      <h5>Creating a product or app that will help people deal with their emotions properly. Bringing attention to emotions and tracking emotions can help people get control back into their life. Also because I am not a mental professional there will be helplines and information for those suffering to get professional help. The first step is getting help. It’s an app to help people motivated to get help.</h5>
+        </div>
+  </div>
+
+<img src="images/line.png" width="100%" height="10%">
+    
+    
+    <!---Research--->
+    <div class="w3-container w3-white w3-padding-64" id="research">
+  <div class="left">
+      <h2><u>Reseach</u></h2>
+      <br>
+      
+      <h3><u>Crazy 8s</u></h3>
+      <h5>For my major project, I was in full control and was able to pick the concept and idea. Complete freedom with this project was great but picking an idea was hard. I used the crazy 8s method to help myself start with an idea. I would recommend this method for people who find it hard to get started. I had so many ideas and picking just one was a challenge. I finally set with a mental health app that will be user-centered.</h5>
+      <br>
+     
+      <br><br>
+      <h3><u>Survey</u></h3>
+      <h5>The process of bemind included a lot of desk research and data collection. As I was creating something that was for people suffering directly and indirectly from mental health, my research and data collection therefore must be ethically sensitive. By collecting qualitative data through surveys and questionnaires. From the acquired findings from the data collection I was able to learn how the user work.</h5>
+    
+      <div class="w3-third">
+      <img src="images/survey.png" style="width: 100%"></div>
+      
+      <div class="w3-third">
+      <img src="images/survey2.png" style="width: 100%"></div>
+      
+      <div class="w3-third">
+      <img src="images/survey3.png" style="width: 100%"></div>
+      <br>  <br> <br>
+      
+      <h3><u>Users</u></h3>
+      <h5>For my user research, I wanted to in-depth with how the user thinks, feels, and acts. By understanding user behaviors, needs, and motivations make for a user-centered product. Creating User Personas & Empathy Maps I can design for multiple users needs. </h5>
+    
+      <div class="w3-third">
+      <img src="images/user1.png" style="width: 100%"></div>
+<div class="w3-third">
+      <img src="images/user2.png" style="width: 100%"></div>      
+<div class="w3-third">
+      <img src="images/user3.png" style="width: 100%"></div>
+
+        </div>
+    </div>
+        
+<img src="images/line.png" width="100%" height="10%">
+
+    <!----Branding------>
+<div class="w3-container w3-text-black w3-padding-64" id="branding">
+  <div class="left">
+      <h2><u>Branding</u></h2>
+      <h5>Naming Bemind, my though process was thesaurus. I was scrolling though thesaurus to see if I could see any words I could mix or collaboration of something, when I seen remind and I though of changing the R to a B to make it more personal like Be. Be Mind. To be one with yourself and be in tune with yourself. To be true to yourself and to be helpful to yourself. I wanted something that has got a relation to the mind and mental health.</h5>
+      <h5>I have went with this green colour. Green is a clean fresh colour which is what I want my brand to be clean and fresh. After researching into colour themes and colour theory I feel this is the best colour for the app and product.</h5>
+      <h5>Tone of Voice I wanted to show a calm and inviting feeling so people would be comformable using the app.</h5>
+        </div>
+    </div>
+    <div class="w3-container">
+     <div class="w3-third">
+      <img src="images/mindmapbe.png" style="width: 100%"></div>
+          
+<div class="w3-third">
+      <img src="images/sketchslo.png" style="width: 100%"></div>  
+          
+    <div class="w3-third">
+    <img src="images/logosketch.png" style="width: 100%">
+    </div>
+</div>
+
+    <div class="w3-half lefter">
+    <img src="images/brand.png" style="width: 80%">
+    </div>
+      <div class="w3-half">
+    <img src="images/bemindlogo.png" style="width: 90%">
+    </div>
+    
+    
+    <img src="images/line.png" width="100%" height="10%">
+    
+    
+    <!----Paper Generation----->
+      <div class="w3-container w3-white w3-padding-64" id="papergeneration">
+  <div class="left">
+      <h2><u>Paper Generation</u></h2>
+      <h5>The following stage in the process was beginning to draw out my ideas. I began with planning the design of the application and how the components would fit in together on my sketch book. Sketching before digital means I can do quick sketches to see what works best. Also with paper I wanted to explore and utilise the app via paper first so any feedback I receive I can change.</h5><h5>First Low-Fi wireframes.</h5>
+      <h5></h5>
+        </div>
+
+     <div class="w3-third">
+      <img src="images/onboardingsketch.png" style="width: 100%"></div>
+          
+<div class="w3-third">
+      <img src="images/ballonnsketch.png" style="width: 100%"></div>  
+          
+    <div class="w3-third">
+    <img src="images/moodskech.png" style="width: 100%">
+    </div>
+      </div>
+    
+      <img src="images/line.png" width="100%" height="10%">
+    
+    <!----Digital Design----->
+      <div class="w3-container w3-white w3-padding-64" id="digitaldesign">
+  <div class="left">
+      <h2><u>Digital Design</u></h2>
+      <h3><u>Wireframes</u></h3>
+        </div>
+          
+          
+<div class="w3-twothird">
+      <img src="images/wireframelow2.png" style="width: 100%"></div>  
+          
+<div class="w3-twothird w3-right">
+      <img src="images/wireframelow1.png" style="width: 100%"></div>
+</div>
+    
+    
+      <img src="images/line.png" width="100%" height="10%">
+
+    <!---Colophon Report-->
+    
+    
+    
+       <!--Outcome-->
+     <div class="w3-container w3-center w3-white w3-padding-64" id="outcome">
+  <div class="w3-center w3-image ">
+        <img src="images/bemindmockupp.png" width="100%">
+         </div>
+         
+      <div class="w3-container">
+          
+          <button class="button"><a href="https://www.behance.net/gallery/90681519/Bemind-brandguidelines">Brand Guidelines</a></button>
+              <button class="button"><a href="https://eimearcooney.tumblr.com/">Process</a></button>
+                <button class="button"><a href="http://bemindapp.co.uk/">Bemind Website</a></button>
+          <button class="button"><a href="https://xd.adobe.com/view/24387ce2-bef6-41eb-4353-0e0b2fe8aa98-5209/">Prototype</a></button>
+                    <button class="button"><a href="https://youtu.be/IOqxOKv7J3c">Walkthough</a></button>
+       </div>
+  </div>
+    
+    
+<!-- Footer -->
+<footer class="w3-container w3-green w3-padding-64 w3-center">  
+    <div class="w3-xxlarge w3-section">
+     <a href="https://www.instagram.com/eimeardesigns/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      
+      <a href="https://twitter.com/eimear_cooney"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      
+       <a href="https://dribbble.com/eimercooney"><i class="fa fa-dribbble w3-hover-opacity"></i></a>
+      
+       <a href="https://eimearcooney.tumblr.com/"><i class="fa fa-tumblr w3-hover-opacity"></i></a>
+      
+      
+      <a href="https://uk.linkedin.com/in/eimear-cooney-530a11174?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+     
+    <p>Created by Eimear Cooney 2020</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+    // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
